@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 500px;
+    padding: 100px;
+    background: #2075ed;
+    border-radius: 20px;
+}
+
+.number{
+    padding: 20px 100px;
+    background: #999;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    padding: 50px;
+    border-radius: 50%;
+}
+.btn:nth-of-type(2){
+    height: 10px;
+    width: 10px;
+    padding: 10px;
+    border-radius: 50%;
+}
